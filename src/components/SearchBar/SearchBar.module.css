@@ -1,0 +1,45 @@
+.header {
+    background-color: #7e3896;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.form {
+    display: flex;
+    gap: 24px;
+}
+
+.input {
+    border: none;
+    outline: none;
+    font-family: "Roboto Mono", serif;
+    font-size: 16px;
+    padding: 4px;
+    width: 360px;
+    border-radius: 4px;
+    transition: border 300ms ease-in-out;
+    background-color: white;
+}
+
+.input:hover,
+.input:focus {
+    border: 2px solid #00e308;
+}
+
+.btn {
+    width: 98px;
+    font-size: 16px;
+    padding: 4px;
+    background-color: #5fdc65;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 300ms ease-in-out, font-size 300ms ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #00e308;
+    font-size: 18px;
+}

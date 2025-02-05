@@ -1,0 +1,21 @@
+.btnLoadMore {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    cursor: pointer;
+    background-color: #5fdc65;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    color: #4c008e;
+    transition: background-color 500ms ease-in-out, transform 500ms ease-in-out;
+}
+
+.btnLoadMore:hover {
+    transform: scale(1.1);
+    background-color: #00e308;
+}
